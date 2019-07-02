@@ -27,3 +27,5 @@ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+This file was forked from freeCodeCamp/freeCodeCamp, but it has 3,000+ contributers. This makes it hard for other people forking out of our's as it will result in copyright actions taken my GitHub Inc. ©2019 IAmTheUndertaker/freeCodeCamp.
