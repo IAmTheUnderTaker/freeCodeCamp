@@ -13,3 +13,16 @@ indent_size = 2
 
 [*.md]
 trim_trailing_whitespace = false
+
+
+Blue Whale".indexOf("Blue");     // returns  0
+"Blue Whale".indexOf("Blute");    // returns -1
+"Blue Whale".indexOf("Whale", 0); // returns  5
+"Blue Whale".indexOf("Whale", 5); // returns  5
+"Blue Whale".indexOf("", 9);      // returns  9
+"Blue Whale".indexOf("", 10);     // returns 10
+"Blue Whale".indexOf("", 11);     // returns 10
+"Blue Whale".indexOf("ue", 0);     // returns 2
+bluted
+
+(bluteforce crack for shekeIgod.)
