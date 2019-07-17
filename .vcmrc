@@ -12,4 +12,20 @@
   "subjectPatternErrorMsg": "subject does not match subject pattern!",
   "helpMessage": "\nPlease use conventional commit messages.\nLearn more at: http://conventionalcommits.org/,\nfor additional information check CONTRIBUTING guidelines of this repo.\n\n  Alternatively You can use inbuilt command: \"npm run commit\" right now.",
   "autoFix": false
-}
+}<script type="text/javascript"> 
+    var min=4; 
+    var max=5;  
+    var random =Math.floor(Math.random() * (+max - +min)) + +min; 
+    document.write("Random Number Generated : " + random );  
+</script> pop() { 
+    let item = this.data[this.length-1]; 
+    delete this.data[this.length-1]; 
+    this.length--; 
+    return this.data; pop() { 
+    let item = this.data[this.length-1]; 
+    delete this.data[this.length-1]; 
+    this.length--; 
+    return this.data; 
+    
+myText = "shekeIgod"
+if (myText.indexOf("ab") == 0) alert("Found first 'ab'");
