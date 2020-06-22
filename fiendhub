@@ -1,6 +1,6 @@
 local place = game.PlaceId
 
----games consisted of so far: Tower Of Hell (TOH), Skyblock, MadCity.,MM2. 4 games atm
+---games consisted of so far: Tower Of Hell (TOH), Skyblock, MadCity.,MM2, Parkour! 5 games atm
 
 if place == 1962086868 then -- https://web.roblox.com/games/1962086868/Tower-of-Hell
 print("Loaded Fiend Hub")
@@ -251,3 +251,25 @@ print("Loaded FiendHub")
 loadstring(game:HttpGet('https://pastebin.com/raw/NwbndAwB'))()
 end
 end  ---pretty good mm2 gui
+--
+local place = game.PlaceId
+
+---Parkour time
+
+if place == 2329123383 then -- https://web.roblox.com/games/2329123383/Parkour
+print("Loaded FiendHub")
+local plr=game.Players.LocalPlayer
+for i=(plr.leaderstats.Stage.Value)+1,250 do
+   plr.Character.HumanoidRootPart.CFrame=game.Workspace[tostring(i)].CFrame*CFrame.new(0,2,0)
+   repeat wait()until plr.leaderstats.Stage.Value==i
+end
+else
+if place == 2329123383 then -- https://web.roblox.com/games/2329123383/Parkour
+print("Loaded FiendHub")
+local plr=game.Players.LocalPlayer
+for i=(plr.leaderstats.Stage.Value)+1,250 do
+   plr.Character.HumanoidRootPart.CFrame=game.Workspace[tostring(i)].CFrame*CFrame.new(0,2,0)
+   repeat wait()until plr.leaderstats.Stage.Value==i
+end
+end
+end
