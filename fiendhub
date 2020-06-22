@@ -1,6 +1,6 @@
 local place = game.PlaceId
 
----yo why bob the builder thicc
+---yo bob the builder fat
 
 if place == 1962086868 then -- https://web.roblox.com/games/1962086868/Tower-of-Hell
 print("Loaded Fiend Hub")
@@ -212,7 +212,7 @@ end  ---made by fiend
 --
 local place = game.PlaceId
 
----damn bro bob the builder kinda thicc
+---i ran out of ideas of what to put here lmfao
 
 if place == 4872321990 then -- https://web.roblox.com/games/4872321990/Skyblox-FISHING
 print("Loaded Fiend Hub")
