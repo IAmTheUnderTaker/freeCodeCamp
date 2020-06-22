@@ -251,21 +251,3 @@ print("Loaded FiendHub")
 loadstring(game:HttpGet('https://pastebin.com/raw/NwbndAwB'))()
 end
 end  ---pretty good mm2 gui
---
-local place = game.PlaceId
-
----totally accurate gun sim time
-
-if place == 4811576324 then -- https://web.roblox.com/games/4811576324/Totally-Accurate-Gun-Simulator
-print("Loaded FiendHubGUI")
-pcall(function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Herrtt/AimHot-v8/master/Main.lua", true))()
-end)
-else
-if place == 4811576324 then -- https://web.roblox.com/games/4811576324/Totally-Accurate-Gun-Simulator
-print("Loaded FiendHubGUI")
-pcall(function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Herrtt/AimHot-v8/master/Main.lua", true))()
-end)
-end
-end  ---if you wanna continue just repeat and add (end) at the end for every local place
