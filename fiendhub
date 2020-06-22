@@ -1,6 +1,6 @@
 local place = game.PlaceId
 
----damn bro bob the builder kinda thicc
+---yo why bob the builder thicc
 
 if place == 1962086868 then -- https://web.roblox.com/games/1962086868/Tower-of-Hell
 print("Loaded Fiend Hub")
