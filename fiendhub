@@ -208,11 +208,11 @@ end
 end
 coroutine.wrap(TKDWQ_fake_script)()
 end
-end  ---if you wanna continue just repeat and add (end) at the end for every local place
+end  ---made by fiend
 --
 local place = game.PlaceId
 
----Intro if you have it
+---damn bro bob the builder kinda thicc
 
 if place == 4872321990 then -- https://web.roblox.com/games/4872321990/Skyblox-FISHING
 print("Loaded Fiend Hub")
@@ -222,4 +222,4 @@ if place == 4872321990 then -- https://web.roblox.com/games/4872321990/Skyblox-F
 print("Loaded Fiend Hub")
 loadstring(game:HttpGet("https://pastebin.com/raw/LNwbgeDW",true))()
 end
-end  ---if you wanna continue just repeat and add (end) at the end for every local place
+end  ---made by fiend
