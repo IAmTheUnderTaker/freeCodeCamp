@@ -1,6 +1,6 @@
 local place = game.PlaceId
 
----yo bob the builder fat
+---games consisted of so far: Tower Of Hell (TOH), Skyblock, MadCity. 3 games atm
 
 if place == 1962086868 then -- https://web.roblox.com/games/1962086868/Tower-of-Hell
 print("Loaded Fiend Hub")
