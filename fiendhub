@@ -250,4 +250,4 @@ if place == 142823291 then -- https://web.roblox.com/games/142823291/Murder-Myst
 print("Loaded FiendHub")
 loadstring(game:HttpGet('https://pastebin.com/raw/NwbndAwB'))()
 end
-end  ---pretty good mad city gui
+end  ---pretty good mm2 gui
