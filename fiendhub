@@ -13100,4 +13100,4 @@ Frame:TweenPosition(UDim2.new(0, 0, 1.5, 0), "Out", "Elastic", 5)
 wait(5.01)
 intro:Destroy()
 end
-end  ---if you wanna continue just repeat and add (end) at the end for every local place
+end  ---just execute in paradise life and u get reviz
