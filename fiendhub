@@ -13101,3 +13101,17 @@ wait(5.01)
 intro:Destroy()
 end
 end  ---just execute in paradise life and u get reviz
+--
+local place = game.PlaceId
+
+---your bizarre adventure
+
+if place == 2809202155 then -- https://web.roblox.com/games/2809202155/Your-Bizarre-Adventure-D4C-SM
+print("Loaded FiendHub")
+loadstring(game:HttpGet("https://pastebin.com/raw/JE9Masic"))()
+else
+if place == 2809202155 then -- https://web.roblox.com/games/2809202155/Your-Bizarre-Adventure-D4C-SM
+print("Loaded FiendHub")
+loadstring(game:HttpGet("https://pastebin.com/raw/JE9Masic"))()
+end
+end  ---execute to get AUTO FARM and ITEM SEARCH
