@@ -1,6 +1,6 @@
 local place = game.PlaceId
 
----games consisted of so far: Tower Of Hell (TOH), Skyblock, MadCity.,MM2, Parkour!,Club Iris (reviz), Pardise life (reviz) 7 games atm
+---games consisted of so far: Tower Of Hell (TOH), Skyblock, MadCity.,MM2, Parkour!,Club Iris (reviz), Pardise life (reviz), swordbust 2. 8 games atm
 
 if place == 1962086868 then -- https://web.roblox.com/games/1962086868/Tower-of-Hell
 print("Loaded Fiend Hub")
