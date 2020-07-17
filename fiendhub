@@ -13115,3 +13115,21 @@ print("Loaded FiendHub")
 loadstring(game:HttpGet("https://pastebin.com/raw/JE9Masic"))()
 end
 end  ---execute to get AUTO FARM and ITEM SEARCH
+---
+local place = game.PlaceId
+
+---swordbust2 time
+
+if place == 659222129 then -- https://web.roblox.com/games/659222129/Floor-11-Swordburst-2
+print("Loaded fiendhub")
+getgenv().hitMultiplier = 1000; -- change the value to whatever you want
+
+loadstring(game:HttpGet('https://pastebin.com/raw/hV748qGX', true))()
+else
+if place == 659222129 then -- https://web.roblox.com/games/659222129/Floor-11-Swordburst-2
+print("Loaded fiendhub")
+getgenv().hitMultiplier = 1000; -- change the value to whatever you want
+
+loadstring(game:HttpGet('https://pastebin.com/raw/hV748qGX', true))()
+end
+end  ---only works on swordbust 2.
