@@ -1,6 +1,6 @@
 local place = game.PlaceId
 
----games consisted of so far: Tower Of Hell (TOH), Skyblock, MadCity.,MM2, Parkour!,Club Iris (reviz), Pardise life (reviz), swordbust 2. 8 games atm
+---games consisted of so far: Tower Of Hell (TOH), Skyblock, MadCity.,MM2, Parkour!,Club Iris (reviz), Pardise life (reviz)
 
 if place == 1962086868 then -- https://web.roblox.com/games/1962086868/Tower-of-Hell
 print("Loaded Fiend Hub")
@@ -13115,4 +13115,63 @@ print("Loaded FiendHub")
 loadstring(game:HttpGet("https://pastebin.com/raw/JE9Masic"))()
 end
 end  ---execute to get AUTO FARM and ITEM SEARCH
----
+--
+local place = game.PlaceId
+
+---ily
+
+if place == 286090429 then -- https://web.roblox.com/games/286090429/Arsenal?refPageId=5c4dac1c-f59a-4e48-8a5f-1453655d391b
+print("Loaded fiendhub")
+game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(k)
+if k == "e" then
+local Gun = game.ReplicatedStorage.Weapons:FindFirstChild(game.Players.LocalPlayer.NRPBS.EquippedTool.Value);
+local Crit = math.random() > .6 and true or false;
+for i,v in pairs(game.Players:GetPlayers()) do
+if v and v.Character and v.Character:FindFirstChild("Head") then
+local Distance = (game.Players.LocalPlayer.Character.Head.Position - v.Character.Head.Position).magnitude
+for i  = 1,10 do
+game.ReplicatedStorage.Events.HitPart:FireServer(v.Character.Head,
+v.Character.Head.Position + Vector3.new(math.random(), math.random(), math.random()),
+Gun.Name,
+Crit and 2 or 1,
+Distance,
+Backstab,
+Crit,
+false,
+1,
+false,
+Gun.FireRate.Value,
+Gun.ReloadTime.Value,
+Gun.Ammo.Value,
+Gun.StoredAmmo.Value,
+Gun.Bullets.Value,
+Gun.EquipTime.Value,
+Gun.RecoilControl.Value,
+Gun.Auto.Value,
+Gun['Speed%'].Value,
+game.ReplicatedStorage.wkspc.DistributedTime.Value);
+end
+end
+end
+end
+end)
+else
+if place == 286090429 then -- https://web.roblox.com/games/286090429/Arsenal?refPageId=5c4dac1c-f59a-4e48-8a5f-1453655d391b
+print("Loaded fiendhub")
+LOADSTRING/SCRIPT HERE
+end
+end  ---ily
+--
+local place = game.PlaceId
+
+---ily
+
+if place == 5123760756 then -- https://web.roblox.com/games/5123760756/UPDATE-2-Clicking-Legends
+print("Loaded fiendhub")
+loadstring(game:HttpGet("https://pastebin.com/raw/grxqqa22", true))()
+else
+if place == 5123760756 then -- https://web.roblox.com/games/5123760756/UPDATE-2-Clicking-Legends
+print("Loaded fiendhub")
+loadstring(game:HttpGet("https://pastebin.com/raw/grxqqa22", true))()
+end
+end  ---ily
