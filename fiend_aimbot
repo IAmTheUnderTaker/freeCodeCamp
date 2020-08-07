@@ -152,11 +152,11 @@ EzAimbot.Enable = function(showfov,fovconfig,key,friendlyfire,smooth)
                 if Smooth then
                     local C = {}
                     local Info = TweenInfo.new(0.05,Enum.EasingStyle.Linear,Enum.EasingDirection.Out)
-                    C.CFrame = CFrame.new(Camera.CFrame.p,ClosestPlayer.Character.Head.CFrame.p)
+                    C.CFrame = CFrame.new(Camera.CFrame.p,ClosestPlayer.Character.HumanoidRootPart.CFrame.p)
                     local Tween = TweenService:Create(Camera,Info,C)
                     Tween:Play()
                 else
-                    Camera.CFrame = CFrame.new(Camera.CFrame.p,ClosestPlayer.Character.Head.CFrame.p)
+                    Camera.CFrame = CFrame.new(Camera.CFrame.p,ClosestPlayer.Character.HumanoidRootPart.CFrame.p)
                 end
             end
             RefreshInternals()
